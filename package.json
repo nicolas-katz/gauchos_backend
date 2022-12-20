@@ -2,12 +2,13 @@
   "name": "gauchos_backend",
   "version": "1.0.0",
   "description": "Back-end API for Miltex Indumentaria project.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node"
+    "start": "nodemon src/server.js --exec babel-node"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
